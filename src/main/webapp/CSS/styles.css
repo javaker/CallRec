@@ -1,0 +1,167 @@
+#errorPass {
+    text-align: center;
+    color: #FF0000
+}
+
+#pageHref {
+    text-align: center;
+    font-size: 18px;
+}
+
+#statusBar {
+
+}
+
+#logo {
+    width: 336px;
+    height: 150px;
+    float: left;
+    margin-left: -27px;
+    margin-top: -20px;
+}
+
+#menu {
+    border-style: solid;
+    /*background: #fff; !* Цвет фона *!*/
+    background: rgba(225, 225, 225, .8);
+    /*color: #fff; !* Цвет текста *!*/
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 5px; /* Уголки */
+    margin-top: 25px;
+    /*opacity: 0.5;*/
+    height: 45px;
+    width: 1050px;
+    /*margin-left: 310px;*/
+}
+
+#menu ul li {
+    float: left;
+    /*color: blue;*/
+    margin-left: 40px;
+    list-style-type: none;
+    /*opacity: 1.0;*/
+    font-size: 25px;
+    margin-top: -5px;
+
+}
+
+#menuUser {
+    /*border-style: solid ;*/
+    /*background: #fff; !* Цвет фона *!*/
+    /*background: rgba(225, 225, 225, .8);*/
+    /*color: #fff; !* Цвет текста *!*/
+    /*padding: 10px; !* Поля вокруг текста *!*/
+    /*border-radius: 5px; !* Уголки *!*/
+    margin-top: -25px;
+    /*opacity: 0.5;*/
+    /*height: 45px;*/
+    /*width: 750px;*/
+    /*margin-left: 310px;*/
+    float: right;
+}
+
+#menuUser ul li {
+    float: left;
+    /*color: blue;*/
+    margin-right: 10px;
+    list-style-type: none;
+    /*opacity: 1.0;*/
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+/*#menu ul li ch{*/
+/*margin-left: 20px;*/
+/*}*/
+
+/*#changePass{*/
+/*margin-left: 160px;*/
+/*}*/
+#menu ul li span {
+    font-weight: bold;
+    color: blue;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#tableDisposition {
+    width: 110px;
+}
+
+#tableBillsec {
+    width: 20px;
+}
+
+#tableDate {
+    width: 200px;
+}
+
+#filter {
+    text-align: center;
+    font-weight: bold;
+    width: 97%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+th {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+    table {
+        width: 100%;
+    }
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+}
+
+.odd {
+    background-color: #eee;
+}
+
+.even {
+    background-color: #fff;
+}

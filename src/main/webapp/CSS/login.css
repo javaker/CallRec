@@ -1,0 +1,56 @@
+.parent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.block {
+
+    margin-top: 20%;
+    margin-left: 45%;
+    width: 100%;
+}
+
+#passField {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#loginBt {
+    margin-left: 55px;
+}
+
+#passError {
+    color: red;
+    font-weight: bold;
+}
+
+.pretoriants {
+    margin-top: 33%;
+    margin-right: 3%;
+    float: right;
+    font-size: 25px;
+
+}
+
+.pretoriants a {
+    text-decoration: none;
+}
+
+.pretoriants a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#userPassPr {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
