@@ -13,7 +13,7 @@ CREATE TABLE `asteriskcdrdb`.`users` (
 -- Table: cdr
 
 CREATE TABLE `asteriskcdrdb`.`cdr` (
-  `calldate` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `calldate` DATETIME NOT NULL DEFAULT '0000-01-01',
   `src` VARCHAR(80) NOT NULL DEFAULT '',
   `dst` VARCHAR(80) NOT NULL DEFAULT '',
   `billsec` INT NOT NULL DEFAULT 0,
